@@ -1,33 +1,30 @@
-import React from 'react'
+import React from 'react';
 
 function About() {
   return (
-    <div>
-      <h1 className='text-6xl mb-4'>Github Finder</h1>
+    <div className='container lg:p-7 md:p-7'>
+      <h1 className='text-6xl mb-4 font-bold'>GitHub Finder</h1>
       <p className='mb-4 text-2xl font-light'>
-        A React app to search GitHub profiles and see profile details. This
-        project is part of the
-        <a href='https://www.udemy.com/course/modern-react-front-to-back/'>
-          {' '}
-          React Front To Back
-        </a>{' '}
-        Udemy course by
-        <strong>
-          <a href='https://traversymedia.com'> Brad Traversy</a>
-        </strong>
-        .
+        GitHub Finder is a React app that allows you to search GitHub profiles and view profile details. It features several technologies and libraries, including:
       </p>
+      <ul className='list-disc ml-6 mb-4 text-lg text-gray-400'>
+        <li>React.js</li>
+        <li>Tailwind CSS</li>
+        <li>Daisy UI</li>
+        <li>React Icons (using react-icons/fa)</li>
+        <li>Context Providers and APIs</li>
+        <li>Reducers (useReducers)</li>
+        <li>Axios</li>
+        <li>React Router (react-router-dom)</li>
+      </ul>
       <p className='text-lg text-gray-400'>
         Version <span className='text-white'>1.0.0</span>
       </p>
       <p className='text-lg text-gray-400'>
-        Layout By:
-        <a className='text-white' href='https://twitter.com/hassibmoddasser'>
-          Hassib Moddasser
-        </a>
+        Created by <strong>Saurabh Shukla</strong>
       </p>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
